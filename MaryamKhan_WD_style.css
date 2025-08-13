@@ -1,0 +1,119 @@
+
+body {
+  font-family: 'Trebuchet MS', sans-serif; 
+  margin: 0;
+  background-color: rgb(115, 191, 198); 
+  color: rgb(3, 27, 40); 
+  line-height: 1.6;
+}
+
+
+center {
+  background: rgb(115, 191, 198);
+  padding: 30px 0;
+  color: rgb(3, 27, 40);
+}
+
+center h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+center img {
+  border-radius: 50%;
+  border: 4px solid rgb(3, 27, 40);;
+  margin: 15px 0;
+}
+
+center p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: rgb(3, 27, 40);;
+  color:rgb(115, 191, 198);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: white;
+  color:rgb(3, 27, 40) ;
+  transform: scale(1.05);
+}
+
+
+h2 {
+  border-left: 5px solid rgb(3, 27, 40);
+  padding-left: 10px;
+  color: rgb(3, 27, 40);
+  margin-top: 30px;
+}
+
+
+p, ul, ol, table {
+  margin: 0 20px 20px;
+}
+
+ul li, ol li {
+  margin: 8px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: auto;
+  background: rgb(98, 197, 184);;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+table th, table td {
+  border: 1px solid rgb(3, 27, 40);
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: rgb(3, 27, 40);
+  color: rgb(98, 197, 184);
+}
+
+
+ol img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 8px;
+  border: 2px solid rgb(3, 27, 40);
+}
+
+
+a {
+  color: rgb(3, 27, 40);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.my-box {
+  height: 150px;
+  width: 300px;
+  background-color: rgb(98, 197, 184);
+  color: rgb(1, 41, 41);
+  border: 5px solid rgb(13, 71, 113);
+  padding: 20px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
