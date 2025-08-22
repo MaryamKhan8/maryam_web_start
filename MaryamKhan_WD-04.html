@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maryam Khan - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Trebuchet MS', sans-serif; 
+      margin: 0;
+      background-color: rgb(115, 191, 198); 
+      color: rgb(3, 27, 40); 
+      line-height: 1.6;
+    }
+
+    center {
+      background: rgb(115, 191, 198);
+      padding: 30px 0;
+      color: rgb(3, 27, 40);
+    }
+
+    center h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+
+    center img {
+      border-radius: 50%;
+      border: 4px solid rgb(3, 27, 40);
+      margin: 15px 0;
+      animation: floatUpDown 3s ease-in-out infinite;
+    }
+
+    center p {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: rgb(3, 27, 40);
+      color:rgb(115, 191, 198);
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: white;
+      color:rgb(3, 27, 40);
+      transform: scale(1.05);
+    }
+
+    h2 {
+      border-left: 5px solid rgb(3, 27, 40);
+      padding-left: 10px;
+      color: rgb(3, 27, 40);
+      margin-top: 30px;
+    }
+
+    p, ul, ol, table {
+      margin: 0 20px 20px;
+    }
+
+    ul li, ol li {
+      margin: 8px 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 95%;
+      margin: auto;
+      background: rgb(98, 197, 184);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    table th, table td {
+      border: 1px solid rgb(3, 27, 40);
+      padding: 10px;
+      text-align: center;
+    }
+
+    table th {
+      background-color: rgb(3, 27, 40);
+      color: rgb(98, 197, 184);
+    }
+
+    ol img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 8px;
+      border: 2px solid rgb(3, 27, 40);
+    }
+
+    a {
+      color: rgb(3, 27, 40);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes floatUpDown {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0px); }
+    }
+
+    
+    .falling-box {
+      width: 300px;
+      height: 200px;
+      border: 4px solid rgb(3, 27, 40);
+      margin: 40px auto;
+      position: relative;
+      overflow: hidden;
+      background-color: rgb(98, 197, 184);
+    }
+
+    .ball {
+      width: 20px;
+      height: 20px;
+      background-color: rgb(3, 27, 40);
+      border-radius: 50%;
+      position: absolute;
+      top: -20px;
+      animation: fall 3s linear infinite;
+    }
+
+    .ball1 { left: 30px; animation-delay: 0s; }
+    .ball2 { left: 80px; animation-delay: 0.5s; }
+    .ball3 { left: 150px; animation-delay: 1s; }
+    .ball4 { left: 220px; animation-delay: 1.5s; }
+    .ball5 { left: 260px; animation-delay: 2s; }
+
+    @keyframes fall {
+      0% { top: -20px; }
+      100% { top: 200px; }
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <h1>Maryam Khan</h1>
+    <img src="https://st2.depositphotos.com/9998432/48297/v/450/depositphotos_482974572-stock-illustration-default-avatar-photo-placeholder-grey.jpg" alt="Profile Picture" width="200">
+    <p>Computer Science Student | Web Developer</p>
+    <a href="mailto:mrymkhan2265@gmail.com">
+      <button>Hire Me</button>
+    </a>
+    <a href="Maryam Khan cv.docx" target="_blank">
+      <button>Download My CV</button>
+    </a>
+  </center>
+
+  <h2>About Me</h2>
+  <p>
+    I'm Maryam Khan, currently studying Computer Science with a growing interest in web development. 
+    I enjoy exploring how websites work and trying out code on my own. As a beginner, I'm focused on learning the basics and building my skills step by step.
+  </p>
+
+  
+  <div class="falling-box">
+    <div class="ball ball1"></div>
+    <div class="ball ball2"></div>
+    <div class="ball ball3"></div>
+    <div class="ball ball4"></div>
+    <div class="ball ball5"></div>
+  </div>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>C++</li>
+    <li>Python (Basics)</li>
+    <li>Video Editing</li>
+  </ul>
+
+  <h2>Education</h2>
+  <table>
+    <tr>
+      <th>Year</th>
+      <th>Degree</th>
+      <th>Institute</th>
+      <th>Achievements</th>
+    </tr>
+    <tr>
+      <td>2025 - Present</td>
+      <td>Bachelor of Science in Computer Science</td>
+      <td>Pak-Austria Fachhochschule</td>
+      <td>Top Performer in Programming Fundamentals</td>
+    </tr>
+    <tr>
+      <td>2021 - 2023</td>
+      <td>Intermediate (Pre-Medical)</td>
+      <td>The Scholars Science College Wah Cantt</td>
+      <td>82% score</td>
+    </tr>
+    <tr>
+      <td>2019 - 2021</td>
+      <td>Matric</td>
+      <td>Jinnah Jame School Haripur</td>
+      <td>90% score</td>
+    </tr>
+  </table>
+
+  <h2>Achievements</h2>
+  <ul>
+    <li>Got certificate from HP Life (Effective Leadership Course)</li>
+    <li>Completed 10+ hours of coding tutorials</li>
+    <li>Started building basic projects using HTML and C++</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:mrymkhan2265@gmail.com">mrymkhan2265@gmail.com</a></p>
+  <p>GitHub: <a href="https://github.com/MaryamKhan8" target="_blank">github.com/MaryamKhan8</a></p>
+</body>
+</html>
+
+
+
+
